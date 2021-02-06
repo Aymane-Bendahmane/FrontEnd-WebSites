@@ -1,0 +1,76 @@
+nav{
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    height: 100px;
+    z-index:1;
+}
+nav h1 {
+    padding-top: 20px;
+    
+}
+.section1{
+    margin-top: 150px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+
+}
+
+.plattes{
+    margin-top: 100px;
+}
+.TEXT1{
+color: orangered;
+}
+.carte{
+    background-color: white;
+    padding-top: 20px;
+    
+}
+.menu-title{
+    font-family: 'Potta One', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    color: #000000;
+    margin-top: 60px;
+    text-align: left;
+}
+.menu-price
+{
+   float:  right;
+   color: orangered;
+  
+
+}
+.menu-content{
+    text-align: left; font-size: 18px;
+   font-family: 'Hachi Maru Pop', cursive;
+   ;
+}
+footer{
+    color: orangered;
+    margin-top: 100px;
+}
+footer h1{
+    text-align: left;
+}
+.media{
+    float: right;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+@media screen and (max-width: 767px) {
+    .media{
+        float: right;
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+  }

@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #dce4e8;
+    background-color: #121618;
+    -webkit-font-smoothing: antialiased;
+
+}
+.header{
+    height: 240px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+ 
+    margin-top: 21px;
+    margin-bottom: 23px;
+    background-image: url('images/img1.png');
+    box-shadow: inset 0 0 0 100vmax  rgba(255,200,81, 0.9);
+
+}
+nav p{
+    padding: 0px 10px;
+}
+.header h1 {
+text-align: center; 
+padding: 100px 0px;  
+color: black; 
+letter-spacing: 6px;
+}
+.colored{
+    background: #1d2326;
+    margin: 20px 0px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+ul{
+    list-style-type: none;
+
+}
+ul li h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1;
+
+}
+li .flos{
+    float: right;
+   
+}
+ul {
+    margin : 100px 0px;
+}
+ul p {
+    font-family: 'Open Sans ', sans-serif;
+    font-size: 14px;
+}
+li {
+    margin: 20px 0px;
+    color: #dce4e8;
+}
+li h1:hover{
+    color: rgba(255,200,81, 0.9);
+}
+
+.line{
+    letter-spacing: 3px;
+    font-size: small;
+    color: gray;
+    
+}
+@media screen and (max-width: 767px){
+    .colored{
+        
+        margin: 0px 0px;
+      
+      
+    }
+    ul{
+        margin : 0px;
+    }
+
+    
+    nav .col-md-3{
+        text-align: center;
+    }
+
+
+}
+
+#noni{
+
+    margin-top: 100px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+}
+#noni li{
+
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+   
+}
+#noni li a {
+     color: white;
+     font-size: bolder;
+     font-family:  'Raleway',sans-serif;
+}
+
+#noni li a:visited {
+    color: orange;
+  
+}
+#noni li a:hover {
+    color: orange;
+  
+}
+.down-page-menu {
+text-align: left;
+font-family: 'PT Sans Narrow', sans-serif;
+
+}
+.down-page-menu p {
+    color: grey;
+}
+.money{
+    font-size: large;
+    color: orange;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.down-page-menu .col-md-6{
+    padding : 0px 90px ;
+    margin-bottom : 30px;
+}
+.last-page{
+    height: 400px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+ 
+    margin-top: 21px;
+    margin-bottom: 23px;
+    background-image: url('images/img1.png');
+    box-shadow: inset 0 0 0 100vmax  rgba(255,200,81, 0.9);
+}
+.last-page .row{
+    padding : 100px  0px;
+    color: black;;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.last-page h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.last-page p{
+    font-weight: initial;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+footer h1{
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+footer p {
+    color: grey;
+    font-size: 14px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+@media screen and (max-width : 710px){
+    .line{
+        letter-spacing: 1px;
+    }
+    .down-page-menu .col-md-6{
+        padding : 0px  ;
+        margin-bottom : 30px;
+        margin-top: 30px;
+    }
+    .last-page{
+        height: 600px;
+    }
+}
+@media screen and (max-width : 500px){
+    .line{
+        letter-spacing: -1px;
+    }
+}

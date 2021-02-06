@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,100&family=Josefin+Slab:ital,wght@1,300&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,100&family=Josefin+Slab:ital,wght@1,300&family=Raleway:wght@700&display=swap');
+nav{
+    position: fixed;
+    top: 0;
+    color: white;
+    background-color: black;
+   opacity: 0.5;
+   width: 100%;
+   padding-left: 150px;
+   text-align: left;
+   font-family: 'Hachi Maru Pop', cursive;
+   z-index:1;
+}
+.text1{
+    text-align: center;
+      
+   padding-top: 220px;
+   color: white;
+   font-family:  'Raleway',sans-serif;
+
+}
+.text1 h1 {
+    font-size: 5em;
+}
+
+
+.text1 p {
+    font-size: 2em;
+}
+.page-header{
+   
+    background-image: url("images/rest.jpg") ;
+    height: 500px; /* You must set a specified height */
+    background-repeat: no-repeat;
+  background-size: 100% 500px;
+  
+}
+.text2{
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(56, 53, 53);
+    font-family:  'Raleway',sans-serif;
+
+    
+
+}
+.text2 h1{
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+.text2 p{
+    font-size: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+ul{
+    padding-top: 80px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+li{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+   
+}
+li a {
+     color: gray;
+     font-family:  'Raleway',sans-serif;
+    }
+hr{
+    height:2px;
+    border-width:0;color:gray;background-color:orange;
+    width: 25%;
+    margin-bottom: 100px;
+}
+
+.content{
+    margin-top: 40px;;
+    margin-bottom: 100px;;
+}
+.card h3{
+    margin-top: 20px;;
+    font-size: 18px;
+    font-family:  'Raleway',sans-serif;
+    font-weight: bolder;
+}
+.card p{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+        color: #828281;
+
+}
+.price{
+    font-family: Josefin Sans;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e7ad48;
+    width: 100%;
+    display: table;
+    margin: 0;
+    padding: 13px 0 45px;
+}
+.menu-wrapper{
+    
+    padding-left: 100px;
+}
+.col-md-4{
+    padding: 10px;
+    text-align: center;
+}
+.clickable{
+    cursor: pointer;
+
+}
+footer{
+    text-align: center;
+    background-color: #1c1c1e;
+    height: 50px;
+    color: blanchedalmond;
+}
+footer p {
+   padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+a:hover{
+    color: orangered;
+}
+img{
+   
+    
+width: 100%;
+}
+.card:hover { 
+    transition: transform .2s; /* Animation */
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+@media screen and (max-width: 767px) {
+    li{
+        display: inline;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+       
+    }
+    hr{
+        height:2px;
+        border-width:0;color:gray;background-color:orange;
+        width: 25%;
+        margin-bottom: 60px;
+    }
+
+    
+    .content h3{
+        font-size: 14px;
+        font-family:  'Raleway',sans-serif;
+        font-weight: bolder;
+    }
+    .content p{
+        font-size: 12px;
+        font-family: 'Josefin Sans', sans-serif;
+            color: #828281;
+    
+    }
+   .col-md-4{
+       margin-left: 30px;
+       margin-right: 30px;
+   }
+
+  }
+  @media screen and (max-width: 767px) {
+    li{
+        display: inline;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 12px;
+       
+    }
+    
+  }
+  

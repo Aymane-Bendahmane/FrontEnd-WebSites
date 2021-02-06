@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Menu Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+   
+    <script type='text/javascript' src='scripte.js'></script>
+
+    
+
+</header>
+
+<body>
+ 
+
+    <nav>
+        <h1>YouLogo</h1>
+    </nav>
+    <section class="page-header">
+
+        <div class="text1">
+            <h1>Menu</h1>
+            <p>Your Menu online</p>
+        </div>
+
+
+
+    </section>
+    <section class="text2">
+        <div class="container">
+
+            <h1>
+                TILE STYLE
+            </h1>
+            <p>These fine folks trusted the awrd winnging restaurant</p>
+            <hr>
+        </div>
+
+    </section>
+    <section>
+        <ul>
+            <li><a id="getContent1" class="clickable">ALL</a></li>
+            <li><a id="getContent2" class="clickable">STARTERS</a></li>
+            <li><a id="getContent3" class="clickable">BREAKFAT</a></li>
+            <li><a id="getContent4" class="clickable">LUNCH</a></li>
+            <li><a id="getContent5" class="clickable">DINNER</a></li>
+            <li><a id="getContent6" class="clickable">DESSERTS</a></li>
+        </ul>
+    </section>
+    <section class="container content">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12 carte1  " data-cat="type1">
+
+
+
+                <div class="card shadow-lg  bg-white rounded">
+                    <img src="images/1.JPG" height="200px">
+                    <div class="card-body">
+                        <h3>ENGLISH ASPARAGUS</h3>
+                        <p>Asparagus, hens egg, toosted sunflower seeds</p>
+                        <span class="price">149</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 carte2" data-cat="type1">
+
+
+
+                <div class="card shadow-lg  bg-white rounded">
+                    <img src="images/2.JPG" height="200px">
+                    <div class="card-body">
+                        <h3>ENGLISH ASPARAGUS</h3>
+                        <p>Asparagus, hens egg, toosted sunflower seeds</p>
+                        <span class="price">149</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 carte3" data-cat="type1">
+
+
+
+                <div class="card shadow-lg  bg-white rounded">
+                    <img src="images/3.JPG" height="200px">
+                    <div class="card-body">
+                        <h3>ENGLISH ASPARAGUS</h3>
+                        <p>Asparagus, hens egg, toosted sunflower seeds</p>
+                        <span class="price">149</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 carte4" data-cat="type1">
+
+
+
+                <div class="card shadow-lg  bg-white rounded">
+                    <img src="images/4.JPG" height="200px">
+                    <div class="card-body">
+                        <h3>ENGLISH ASPARAGUS</h3>
+                        <p>Asparagus, hens egg, toosted sunflower seeds</p>
+                        <span class="price">149</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 carte5" data-cat="type1">
+
+
+
+                <div class="card shadow-lg  bg-white rounded">
+                    <img src="images/5.JPG" height="200px">
+                    <div class="card-body">
+                        <h3>ENGLISH ASPARAGUS</h3>
+                        <p>Asparagus, hens egg, toosted sunflower seeds</p>
+                        <span class="price">149</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 carte6" data-cat="type1">
+
+
+
+                <div class="card shadow-lg  bg-white rounded">
+                    <img src="images/6.JPG" height="200px">
+                    <div class="card-body">
+                        <h3>ENGLISH ASPARAGUS</h3>
+                        <p>Asparagus, hens egg, toosted sunflower seeds</p>
+                        <span class="price">149</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+    <footer>
+        <p>All Right Reserved @2021</p>
+    </footer>
+
+    <script>
+
+
+        $(document).ready(function () {
+            var carte1 = $('.carte1');
+            var carte2 = $('.carte2');
+            var carte3 = $('.carte3');
+            var carte4 = $('.carte4');
+            var carte5 = $('.carte5');
+            var carte6 = $('.carte6');
+            var carte7 = $('.carte7');
+            var carte8 = $('.carte8');
+            $('#getContent1').click(function () {
+
+                carte1.show("slow");
+                carte2.show("slow");
+                carte3.show("slow");
+                carte4.show("slow");
+                carte5.show("slow");
+                carte6.show("slow");
+                carte7.show("slow");
+                carte8.show("slow");
+                console.log('Clicked')
+
+            });
+            $('#getContent2').click(function () {
+                carte1.show("slow");
+                carte2.show("slow");
+                carte3.fadeOut(1000)
+                carte4.fadeOut(1000)
+                carte5.fadeOut(1000)
+                carte6.fadeOut(1000)
+                carte7.fadeOut(1000)
+                carte8.fadeOut(1000)
+                console.log('Clicked')
+
+            });
+            $('#getContent3').click(function () {
+
+                carte3.show("slow");
+                carte4.show("slow");
+                carte5.fadeOut(1000)
+                carte6.fadeOut(1000);
+                carte7.fadeOut(1000);
+                carte8.fadeOut(1000);
+                carte1.fadeOut(1000)
+                carte2.fadeOut(1000)
+                console.log('Clicked')
+
+            });
+            $('#getContent4').click(function () {
+                carte5.show("slow");
+                carte6.show("slow");
+                carte1.fadeOut(1000);
+                carte2.fadeOut(1000);
+                carte3.fadeOut(1000);
+                carte4.fadeOut(1000);
+                carte7.fadeOut(1000);
+                carte8.fadeOut(1000);
+                console.log('Clicked')
+
+            });
+            $('#getContent5').click(function () {
+                carte1.show("slow");
+                carte7.show("slow");
+                carte8.show("slow");
+                carte2.fadeOut(1000);
+                carte3.fadeOut(1000);
+                carte4.fadeOut(1000);
+                carte5.fadeOut(1000);
+                carte6.fadeOut(1000);
+
+                console.log('Clicked')
+
+            });
+
+            $('#getContent6').click(function () {
+                carte1.show("slow");
+                carte2.show("slow");
+                carte5.show("slow");
+                carte7.show("slow");
+                carte8.show("slow");
+                carte3.fadeOut(1000);
+                carte4.fadeOut(1000);
+                carte4.fadeOut(1000);
+
+                carte6.fadeOut(1000);
+
+
+                console.log('Clicked')
+
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
